@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu_superior{
+    background-color: rgba(29, 29, 29, 0.575);
+    height: 80px;
+}
+#conteudo_menu_sup{
+    width: 700px;
+    float: right;
+    margin-top: 20px;    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#primeiro{
+    margin-left: 0px;
+}
+#conteudo_menu_sup ul {
+    list-style: none;
+    display: flex;
+}
+
+#conteudo_menu_sup ul li{
+    margin-right: 10px;
+}
+
+#conteudo_menu_sup a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    margin-left: 20px;
+}
+#conteudo_menu_sup a:hover{
+    color: brown;
+    font-size: large;
+}
+#conteudo_menu_sup input{
+    border:0px;
+    border-bottom: 2px solid whitesmoke;
+    margin-left: 20px;
+    float: right;
+    height: 30px;
+    width: 300px;
+    background-image: url(imagens/search-svgrepo-com.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#conteudo_menu_sup input::placeholder{
+    font-size: 16px;
+    color: whitesmoke;
+}
