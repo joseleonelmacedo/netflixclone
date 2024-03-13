@@ -6,6 +6,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+#top{
+    height: 500px;
+    background-image: url(imagens/strenger.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
 #menu_superior{
     background-color: rgba(29, 29, 29, 0.575);
     height: 80px;
@@ -58,4 +64,47 @@ body{
 #conteudo_menu_sup input::placeholder{
     font-size: 16px;
     color: whitesmoke;
+}
+#titulo_destaque{
+    width: 40vw;
+    height: 76%;
+    background-color: rgba(29, 29, 29, 0.575);
+    padding-top: 40px;
+}
+#conteudo_dest{
+    width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+
+}
+
+#conteudo_dest h4 span{
+    font-size: small;
+    font-style: italic;
+}
+#conteudo_dest h6{
+    color: rgb(61, 219, 101);
+    font-style: italic;
+}
+#conteudo_dest h6 span{
+    color: rgb(187, 187, 187);
+}
+
+.square{
+    border: solid whitesmoke 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#play{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+#play:hover{
+    padding: 8px;
 }
