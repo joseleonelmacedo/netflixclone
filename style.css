@@ -124,22 +124,213 @@ body{
     padding-left: 20px;
 }
 
-#onfire #grade_lugar{
+#onfire #grade_lugar{    
     display: flex;
     justify-content: space-around;
 }
 
-.lugar{
-    width: 400px;
-    height: 250px;
+.lugar{ 
+    border-right: 3px solid whitesmoke;
+    padding-right: 6px;
+    width: 300px;
+    height: 80%;
 }
 .lugar h2{
     display: inline;
-    font-size: 160px;
+    font-size: 100px;
 }
 .lugar img{
-    width: 300px;
+    width: 240px;
     height: 400px;
     float: right;
     
+}
+
+/**********/
+
+#seções{
+    background: rgba(45, 45, 44, 0.27);
+    border-radius: 13px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);    
+    border: 1px solid rgba(45, 45, 44, 0.39);
+
+    width: 60%;
+    height: 100px;
+    margin-top: 350px;
+    margin-left: 20%;
+    display: flex;    
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+
+#produtos{
+    height: 100px;
+    width: 90px;
+    text-align: center;
+
+}
+
+#produtos img{
+    width: 60px;
+
+    margin-top: 4px;
+
+}
+
+#produtos p{
+    display: inline-block;
+    font-size: 16px;
+}
+
+#seções a{
+    color: rgb(43, 42, 42);
+}
+
+#seções a:hover img{
+    border: solid rgba(200, 245, 178, 0.884) 2px;
+    border-radius: 100%;
+    
+}
+
+#mercadorias{
+    height: 450px;
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-left: 4px;
+    background-color: rgb(224, 224, 224);
+   
+}
+
+#seçoes{
+    height: 260px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.titulos h2{
+    width: 100px;
+    border-bottom: 4px solid black;
+}
+
+.cards-conteiner{
+    display:flex;    
+    overflow: hidden;
+
+}
+
+.cards .card .content-card{
+    height: 210px;
+    width: 200px;
+
+}
+
+.main-cards {
+       
+    display: flex;
+    justify-content: space-around;   
+    transition: all 3s ease;
+}
+
+.cards{
+    margin-left: 20px;  
+    margin-top: 5px; 
+    border-radius: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.button img{
+    width: 40px;
+    height: 50px;
+    opacity: 80%;
+}
+
+.button label{
+    height: 15px;
+    width: 15px;
+}
+
+.button label.one{
+    float: right;
+    margin-top: -150px;
+    margin-right: 95%;
+
+}
+
+.button label.two{
+
+    float: right;
+    margin-top: -150px;
+
+}
+
+.cards-conteiner input {
+    display: none;
+} 
+
+#two:checked ~ .main-cards{
+    margin-left: -100%;
+}
+
+.produto{
+    position: relative;
+    overflow: hidden; 
+}
+
+.produto img{
+    height: 210px;
+    width: 200px;
+    border-radius: 10px;    
+
+}
+
+.descrisão-produto{   
+    background-color: rgba(27, 27, 27, 0.521);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(57, 55, 55, 0.38);
+
+    position: absolute;
+    bottom: 3px;
+    height: 210px;
+    width: 200px;
+    border-radius: 10px;        
+    text-align: center;
+    opacity: 0;
+}
+
+.descrisão-produto h1{
+    margin-top: 10px;
+    color: rgb(223, 223, 223);
+    transform: rotateY(30px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.descrisão-produto p{
+    margin-top: 4px;
+    margin-left: 9%;
+    width: 80%;
+    color: rgb(223, 223, 223);
+    transform: rotateY(30px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.produto:hover .descrisão-produto{
+    opacity: 1;
+}
+
+.produto:hover .descrisão-produto p{
+    opacity: 1;
+}
+
+.produto:hover .descrisão-produto h1{
+    opacity: 1;
 }
