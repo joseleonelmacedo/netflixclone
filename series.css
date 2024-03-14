@@ -67,7 +67,6 @@ body{
     color: whitesmoke;
 }
 #conteudo{
-    border: solid red 1px;
     width: 90%;
     margin-left: 50px;
     margin-top: 30px;
@@ -75,6 +74,34 @@ body{
 
 #conteudo h1{
     color: whitesmoke;
+}
+
+#grade_serie{
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#serie{
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+#serie img{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+
+#serie:hover{
+    border: solid whitesmoke 2px;
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
 }
 
 #grade_filme{
@@ -86,7 +113,6 @@ body{
 }
 
 #filme{
-    border: solid red 1px;
     width: 300px;
     margin-top: 20px;
     height: 200px;
@@ -95,4 +121,8 @@ body{
 #filme:hover{
     border: solid blue 1px;
     cursor: pointer;
+}
+#rodape{
+    background-color: rgb(31, 30, 30);
+    height: 50px;
 }
