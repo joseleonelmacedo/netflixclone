@@ -45,8 +45,7 @@ body{
     margin-left: 20px;
 }
 #conteudo_menu_sup a:hover{
-    color: brown;
-    font-size: large;
+    color: rgb(197, 196, 196);
 }
 #conteudo_menu_sup input{
     border:0px;

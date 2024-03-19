@@ -46,9 +46,9 @@ body{
     margin-left: 20px;
 }
 #conteudo_menu_sup a:hover{
-    color: brown;
-    font-size: large;
+    color: rgb(197, 196, 196);
 }
+
 #conteudo_menu_sup input{
     border:0px;
     border-bottom: 2px solid whitesmoke;
@@ -134,9 +134,8 @@ body{
 
 #onfire{
     margin-top: 30px;
-    border-top: 2px solid whitesmoke;
     padding-top: 10px;
-    border-bottom: 2px solid whitesmoke;
+
     height: 500px;
     color: whitesmoke;
 }
@@ -199,7 +198,7 @@ body{
 
 #produtos{
     height: 100px;
-    width: 90px;
+    width: 200px;
     text-align: center;
 
 }
@@ -573,8 +572,16 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
 #rodape{
     background-color: rgb(31, 30, 30);
-    height: 50px;
+    height: 100px;
+    color: antiquewhite;
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+#rodape ul li{ cursor: pointer;
+    list-style: none;
+    margin-bottom: 10px;
 }
